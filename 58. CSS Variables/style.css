@@ -1,0 +1,75 @@
+/* CSS Variables */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ---------------------------------------------------------- */
+
+:root {
+    --biru: #1e90ff;
+    --putih: #fff;
+
+    --oren: #ff4500
+}
+.bungkus1 {
+    background-color: var(--biru);
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.anak1 {
+    background-color: var(--putih);
+    color: var(--biru);
+    padding: 20px;
+    text-align: left;
+}
+
+.anak1 h2, .anak1 p, .anak1 button {
+    margin: 10px 0 10px 0;
+}
+
+.anak1 h2 {
+    border-bottom: 2px solid var(--biru);
+}
+
+.anak1 button {
+    border: 1px solid var(--biru);
+    background-color: var(--putih);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bungkus2 {
+    background-color: var(--oren);
+    padding: 20px;
+}
+
+.anak2 {
+    background-color: var(--putih);
+    padding: 10px 20px 10px 20px;
+    color: var(--oren);
+    border-radius: 15px;
+}
+
+.anak2 h2 {
+    border-bottom: 2px solid var(--oren);
+}
+
+.anak2 h2, .anak2 p {
+    margin-bottom: 15px;
+}
+
+.tombol {
+    border: 1px solid var(--oren);
+    background-color: var(--putih);
+    padding: 5px;
+}
