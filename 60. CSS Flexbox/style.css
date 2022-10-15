@@ -32,3 +32,20 @@
     color: white;
     margin: 5px;
 }
+
+.bungkus3 {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 400px;
+    height: 150px;
+    background-color: gainsboro;
+}
+
+.item3 {
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
