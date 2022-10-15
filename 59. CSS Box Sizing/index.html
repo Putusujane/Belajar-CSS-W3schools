@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="CSS Box Sizing">
+        <meta name="keywords" content="CSS, Box Sizing">
+        <meta name="author" content="Putu Su">
+
+        <title>CSS Box Sizing</title>
+
+        <!-- CSS External File -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Title and Description -->
+            <section class="title-description">
+                <h1>CSS Box Sizing</h1>
+                <p>Belajar CSS box sizing</p>
+            </section>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- Article -->
+            <article>
+                <section>
+                    <h2>Width of Elements Without <code>box-sizing</code></h2>
+
+                    <p>Tanpa <code>box-sizing:</code></p>
+
+                    <div class="divisi1">
+                        This <code>div</code> is smaller (width is 300px
+                        and height is 100px).
+                    </div>
+                    <br>
+                    <div class="divisi2">
+                        This <code>div</code> is bigger (width is also 300px
+                        and height is 100px).
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Width of Elements With <code>box-sizing:</code></h2>
+
+                    <p>Dengan <code>box-sizing:</code></p>
+
+                    <div class="divisi3">
+                        Kedua div ukurannya sama.
+                    </div>
+
+                    <br>
+
+                    <div class="divisi4">
+                        Hello, World!
+                    </div>
+                </section>
+
+                <section>
+                    <h2>ELemen Form + <code>box-sizing</code></h2>
+
+                    <div class="pembungkus-form">
+                        <form action="action_page.php">
+                            <label for="fname">Firstname:</label> <br>
+                            <input type="text" name="fname" id="fname" value="Putu"> <br>
+
+                            <label for="lname">Lastname:</label> <br>
+                            <input type="text" name="lname" id="lname" value="Sujane"> <br>
+
+                            <label for="comments">Comments:</label> <br>
+                            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+                            <br> <br>
+
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </section>
+            </article>
+
+            <!-- Aside -->
+            <aside>
+                <section>
+                    <h3>Web Development</h3>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MySQL</a></li>
+                </section>
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2022 by Putu Su.</p>
+        </footer>
+
+        <!-- Internal JavaScript -->
+        <script>
+            // Code is here!.
+        </script>
+    </body>
+</html>
