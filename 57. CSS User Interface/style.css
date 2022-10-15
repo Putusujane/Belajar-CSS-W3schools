@@ -1,0 +1,140 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+    transition: color 0.6s;
+}
+
+nav ul li a.active {
+    color: tomato;
+}
+
+nav ul li a:hover:not(.active) {
+    color: tomato;
+}
+
+header, main, footer {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+article {
+    width: 70%;
+    margin-right: 5px;
+}
+
+article section, aside section {
+    background-color: gainsboro;
+}
+
+article section h2, aside section h3 {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    background-color: tomato;
+    color: white;
+}
+
+aside section h3 {text-align: center;}
+
+aside section ul {
+    list-style: none;
+}
+
+aside section ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    margin: 4px;
+    transition: background-color 0.6s;
+}
+
+aside section ul li a:hover {
+    background-color: gray;
+}
+
+aside {
+    width: 30%;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* -------------------------------------------------------- */
+
+.user1 {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    resize: horizontal;
+    overflow: auto;
+    background-color: palevioletred;
+    color: white;
+}
+
+.user2 {
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    resize: vertical;
+    overflow: auto;
+    column-count: 2;
+    column-rule: 2px solid gray;
+}
+
+.user3 {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.user4 {
+    margin: 20px;
+    border: 1px solid black;
+    outline: 4px solid red;
+    outline-offset: 10px;
+}
+
+.user5 {
+    margin: 5px;
+    border: 1px solid black;
+    outline: 5px dashed blue;
+    outline-offset: 5px;
+}
