@@ -15,3 +15,20 @@
     color: white;
     margin: 5px;
 }
+
+.bungkus2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: gainsboro;
+    direction: rtl;
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    margin: 5px;
+}
