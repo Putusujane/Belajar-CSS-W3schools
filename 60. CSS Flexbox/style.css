@@ -16,7 +16,7 @@
     margin: 5px;
 }
 
-.bungkus22 {
+.bungkus221 {
     direction: rtl;
 }
 
@@ -175,4 +175,328 @@
     margin: 5px;
     background-color: pink;
     color: black;
+}
+
+.bungkus11 {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+.item11 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bungkus12 {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+.item12 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bungkus13 {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+.item13 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bungkus14 {
+    display: -webkit-flex;
+    display: flex;
+    align-items: baseline;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+.item14 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bungkus15 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+    width: 200px;
+    height: 200px;
+    
+    background-color: gray;
+}
+
+.item15 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+    background-color: blueviolet;
+    color: white;
+}
+
+.bungkus16 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    width: 300px;
+    height: 150px;
+
+    background-color: gray;
+}
+
+.item16 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: brown;
+    color: white;
+}
+
+.bungkus17 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+
+    width: 300px;
+    height: 150px;
+
+    background-color: gray;
+}
+
+.item17 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: brown;
+    color: white;
+}
+
+.bungkus18 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: gray;
+}
+
+.item18 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: yellowgreen;
+}
+
+.bungkus19 {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: gray;
+}
+
+.item19 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.utama {-webkit-order: -1; order: -1;}
+
+.bungkus20 {
+    display: -webkit-flex;
+    display: flex;
+
+    width: 400px;
+    height: 250px;
+
+    background-color: gray;
+}
+
+.item20 {
+    width: 50px;
+    height: 75px;
+    margin: 10px;
+
+    background-color: aquamarine;
+}
+
+.item20:first-child {
+    margin-right: auto;
+}
+
+.bungkus21 {
+    display: -webkit-flex;
+    display: flex;
+
+    width: 400px;
+    height: 250px;
+
+    background-color: gray;
+}
+
+.item21 {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+
+    background-color: red;
+    color: white;
+}
+
+.bungkus22 {
+    display: -webkit-flex;
+    display: flex;
+
+    width: 400px;
+    height: 250px;
+
+    background-color: lightgrey;
+}
+
+.item22 {
+    width: 75px;
+    min-height: 100px;
+    margin: 10px;
+
+    background-color: cornflowerblue;
+}
+
+.bagian1 {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+}
+
+.bagian2 {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+
+.bagian3 {
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.bagian4 {
+    -webkit-align-self: baseline;
+    align-self: baseline;
+}
+
+.bagian5 {
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+
+.bungkus23 {
+    display: -webkit-flex;
+    display: flex;
+
+    width: 400px;
+    height: 250px;
+
+    background-color: lightgrey;
+}
+
+.item23 {
+    margin: 10px;
+
+    background-color: cornflowerblue;
+}
+
+.x {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.y {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.z {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive Dua Kolom */
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive Satu Kolom */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
