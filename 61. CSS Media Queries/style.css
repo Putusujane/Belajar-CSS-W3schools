@@ -1,0 +1,67 @@
+/* CSS Media Queries */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.queries1 {
+    width: auto;
+    height: 100px;
+    background-color: pink;
+}
+
+/* Merubah responsive warna latar pada elemen. */
+@media screen and (min-width: 480px) {
+    .queries1 {
+        background-color: lightgreen;
+    }
+}
+
+.queries2 {
+    overflow: auto;
+}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 2px;
+    background-color: brown;
+    color: white;
+}
+
+#main {
+    margin-left: 4px;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
+}
