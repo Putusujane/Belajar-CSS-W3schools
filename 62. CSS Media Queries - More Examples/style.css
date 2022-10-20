@@ -131,3 +131,22 @@
   @media screen and (max-width: 600px) {
     .divisi1 {display: none;}
   }
+  /* ---------------------------------------------------------- */
+
+  div.divisi2 {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+
+  @media screen and (min-width: 600px) {
+    div.divisi2 {
+        font-size: 80px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.divisi2 {
+        font-size: 30px;
+    }
+  }
