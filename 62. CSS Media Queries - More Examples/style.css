@@ -1,0 +1,24 @@
+/* CSS Media Queries - More Examples */
+
+.media-queries1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: tan;
+    color: white;
+}
+
+/* Pada layar lebar 992px atau kurang, warna background blue. */
+@media screen and (max-width: 992px) {
+    .media-queries1 {
+        background-color: blue;
+    }
+}
+
+/* Pada layar, lebar 600px atau kurang, warna background menjadi olive. */
+@media screen and (max-width: 600px) {
+    .media-queries1 {
+        background-color: olive;
+    }
+}
