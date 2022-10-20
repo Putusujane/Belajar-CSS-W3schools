@@ -89,3 +89,37 @@
       width: 100%;
     }
   }
+  /* ----------------------------------------------------------- */
+
+  .queries4 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .kolom2 {
+    flex: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .a1 {background-color: #aaa;}
+  .a2 {background-color: #bbb;}
+  .a3 {background-color: #ccc;}
+  .a4 {background-color: #ddd;}
+
+  @media screen and (max-width: 992px) {
+    .kolom2 {flex: 50%;}
+  }
+
+  /* @media screen and (max-width: 600px) {
+    .kolom2 {flex: 100%;}
+  } */
+
+  @media screen and (max-width: 600px) {
+    .queries4 {
+        flex-direction: column;
+    }
+  }
+  /* ---------------------------------------------------------- */
+  
