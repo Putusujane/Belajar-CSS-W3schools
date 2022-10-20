@@ -22,3 +22,36 @@
         background-color: olive;
     }
 }
+
+/* ----------------------------------------------------------------- */
+
+.media-queries2 {
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 5px 5px 10px brown;        /* Urutan: Horizontal ke Vertical */
+}
+
+.media-queries2 a {
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+/* Mengubah warna background menu saat hover mouse */
+.media-queries2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Pada saat layar 600px, menu navigasi berubah menjadi atas ke bawah. */
+@media screen and (max-width: 600px) {
+    .media-queries2 a {
+        float: none;
+        width: 100%;
+    }
+}
