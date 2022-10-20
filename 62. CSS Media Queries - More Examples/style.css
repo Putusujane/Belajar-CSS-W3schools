@@ -122,4 +122,12 @@
     }
   }
   /* ---------------------------------------------------------- */
-  
+  .divisi1 {
+    display: block;
+    padding: 20px;
+    background-color: yellow;
+  }
+
+  @media screen and (max-width: 600px) {
+    .divisi1 {display: none;}
+  }
