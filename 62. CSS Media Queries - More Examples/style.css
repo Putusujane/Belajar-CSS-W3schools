@@ -190,3 +190,19 @@
         max-width: 100%;
     }
   }
+  /* --------------------------------------------------- */
+
+  .divisiX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightgreen;
+  }
+
+  /* Responsive */
+  @media only screen and (orientation: landscape) {
+    .divisiX {
+      background-color: lightblue;
+    }
+  }
